@@ -20,7 +20,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #cbbbaf;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -65,6 +65,45 @@ img {
   width:250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
+
+.item-plaatje2 {
+  float:right;
+  width:300px;
+  padding-left: 15px;
+}
+
+.item-plaatje3 {
+  float:right;
+  width:200px;
+  padding-left: 15px;
+}
+
+.item-plaatje4 {
+  float:right;
+  width:150px;
+  padding-left: 15px;
+}
+
+.item-plaatje5 {
+  float:right;
+  width:60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.item-plaatje6 {
+  width: 250px;
+  padding-left: 15px;
+  float: right;
+}
+
+.item-plaatje8 {
+  width: 60px;
+  padding-right: 20px;
+  margin-top: 3px;
+  float: left;
+}
+
 .item-tekst {
   float:right;
   width: 450px;
@@ -75,7 +114,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: #4b3f35;
 }
 
 .smalltext {
@@ -84,7 +123,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: #5a4b3a;
     text-decoration: none;
 }
 
@@ -99,8 +138,9 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #bfac9b;
     overflow: hidden;
+  border-radius: 10px;
 }
 
 nav ul li {
@@ -109,16 +149,45 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #a78c76;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #6d5240;
 }
+
+h6{
+ margin-left: 240px;
+  color: #69533a;  
+}
+
+.toopbar{
+  height: 100px;
+  width: 40%;
+  margin-left: 200px;
+  padding-left:10px;
+  background-color: #a78c76;
+  border-radius: 10px;
+}
+
+.input {
+  background-color: #bfac9b;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.loginbutton {
+  background-color: #bfac9b;
+  border-radius: 10px;
+  margin-left: 95px;
+  margin-top: 10px;
+}
+
